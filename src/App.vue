@@ -1,8 +1,8 @@
 <template>
   <!-- <HelloWorld/> -->
-  <nav class="navbar navbar-expand-gulg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Phantom</a>
+      <a class="navbar-brand mb-0 h1" href="#">Phantom</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -97,7 +97,7 @@
   </nav>
 
   <router-view />
-  <div class="container">
+  <div class="container ">
     <footer class="py-5">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
