@@ -97,7 +97,7 @@
   </nav>
 
   <router-view />
-  <div class="container ">
+  <div class="container">
     <footer class="py-5">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
@@ -212,12 +212,13 @@
   </div>
 </template>
 
-<script></script>
 
-<style lang="scss">
-@import url("/Users/macbookair/phantom-product/node_modules/hover.css/css/hover-min.css");
+
+<style scoped lang="scss">
+@import url("~/node_modules/hover.css/css/hover-min.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins:wght@200&family=Qwitcher+Grypen:wght@700&display=swap");
+
 #app {
   font-family: "Maven Pro", sans-serif;
 }

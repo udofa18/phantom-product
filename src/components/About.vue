@@ -17,7 +17,11 @@
       ></video>
     </div>
     <div class="w-100 p-5 h-50 row" style="">
-      <div class="w-50 text-end text-light col about-info">
+      <div
+        class="w-50 text-end text-light col about-info"
+        data-aos="slide-left"
+        data-aos-duration="500"
+      >
         <h3 class="text-light mt-5">Spend smarter with Spendesk</h3>
         <p class="opacity-75">
           Imagine a software that helps you make smarter spending decisions and
@@ -30,7 +34,12 @@
           on strategic topics to grow your business.
         </p>
       </div>
-      <h1 class="col text-center text-light my-5" style="font-size: 100px">
+      <h1
+        class="col text-center text-light my-5"
+        style="font-size: 100px"
+        data-aos="slide-right"
+        data-aos-duration="500"
+      >
         About us
       </h1>
     </div>
@@ -38,7 +47,13 @@
   <div class="container h-100 w-100 text-center py-5">
     <h2 class="my-5">This is the new spend playbook.</h2>
     <div class="row gap-3 m-5">
-      <div class="card column-md-5 hvr-float-shadow" style="width: 18rem">
+      <div
+        class="card column-md-5 hvr-float-shadow"
+        style="width: 18rem"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-delay="100"
+      >
         <img
           src="https://img.freepik.com/free-vector/people-analyzing-growth-charts_23-2148866843.jpg?w=996&t=st=1679647265~exp=1679647865~hmac=2b14be9505c1510c37ec60f7107c9aaaeeee405dc0d208043c96987d68c7a187"
           class="card-img-top"
@@ -51,7 +66,13 @@
           </p>
         </div>
       </div>
-      <div class="card column-md-5 hvr-float-shadow" style="width: 18rem">
+      <div
+        class="card column-md-5 hvr-float-shadow"
+        style="width: 18rem"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-delay="200"
+      >
         <img
           src="https://img.freepik.com/free-vector/strategic-consulting-concept-illustration_114360-8994.jpg?w=740&t=st=1679647339~exp=1679647939~hmac=92180bf5de5da7b0965f06275bc7737a4042f5f619e418d46a8a2d539b95cce5"
           class="card-img-top"
@@ -64,7 +85,13 @@
           </p>
         </div>
       </div>
-      <div class="card column-md-5 hvr-float-shadow" style="width: 18rem">
+      <div
+        class="card column-md-5 hvr-float-shadow"
+        style="width: 18rem"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-delay="300"
+      >
         <img
           src="https://img.freepik.com/free-vector/goal-achievement-teamwork-business-concept-career-growth-cooperation-development-project_107791-29.jpg?1&w=740&t=st=1679647360~exp=1679647960~hmac=72d58abfbc93580987f1fc2f356539c3553e91a8f36e751b1e4ab1e1fe77ad78"
           class="card-img-top"
@@ -77,7 +104,13 @@
           </p>
         </div>
       </div>
-      <div class="card column-md-5 hvr-float-shadow" style="width: 18rem">
+      <div
+        class="card column-md-5 hvr-float-shadow"
+        style="width: 18rem"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-delay="400"
+      >
         <img
           src="https://img.freepik.com/free-vector/male-team-illustration_23-2150201042.jpg?w=996&t=st=1679647399~exp=1679647999~hmac=709751e17db8c47c57b9182a30064112614a1dc5f7a45229a41843a3674a5aa1"
           class="card-img-top"
@@ -217,7 +250,7 @@
       </div>
     </div>
   </div>
-<h3 class="text-center">Meet the team</h3>
+  <h3 class="text-center">Meet the team</h3>
   <div class="row w-100 gap-3 m-5 mobile">
     <div
       class="card pt-4 mb-3 hvr-bob border-light column-md-5"
@@ -232,7 +265,12 @@
       "
     >
       <div class="row g-0 m-2">
-        <div class="col-md-5">
+        <div
+          class="col-md-5"
+          data-aos="slide-up"
+          data-aos-duration="500"
+          data-aos-delay="100"
+        >
           <img
             src="https://as1.ftcdn.net/v2/jpg/02/99/04/20/1000_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg"
             class="img-fluid rounded-start"
@@ -240,7 +278,12 @@
             style="width: 100%; height: 100%"
           />
         </div>
-        <div class="col-md-7">
+        <div
+          class="col-md-7"
+          data-aos="slide-up"
+          data-aos-duration="500"
+          data-aos-delay="200"
+        >
           <div class="card-body bg-dark text-light">
             <h5 class="card-title">Daniel Udofa</h5>
             <p class="text-danger">Founder</p>
@@ -267,7 +310,12 @@
         );
       "
     >
-      <div class="row g-0 m-2">
+      <div
+        class="row g-0 m-2"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-delay="200"
+      >
         <div class="col-md-5">
           <img
             src="https://as1.ftcdn.net/v2/jpg/04/74/20/88/1000_F_474208856_EoL6uq3YlFiDpd8iB6EQOs88uXEFJdcy.jpg"
@@ -303,7 +351,12 @@
         );
       "
     >
-      <div class="row g-0 m-2">
+      <div
+        class="row g-0 m-2"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-delay="300"
+      >
         <div class="col-md-5">
           <img
             src="https://as2.ftcdn.net/v2/jpg/04/95/15/79/1000_F_495157971_zIhzjfx3yG1AsgYOTQS9Z6VHAsN0OJSI.jpg"
@@ -339,27 +392,26 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @media (min-width: 350px) and (max-width: 950px) {
-   .mobile {
+  .mobile {
     height: 79rem;
-        // gap: 18rem !important;
-        padding: 1rem !important;
-        margin-bottom: 3rem !important;
-        margin: 0 !important;
+    // gap: 18rem !important;
+    padding: 1rem !important;
+    margin-bottom: 3rem !important;
+    margin: 0 !important;
+  }
+  .mob-vid {
+    height: 1rem !important;
+  }
+  .about-info {
+    display: none;
+  }
+  .h-mob {
+    height: 20rem !important;
+    margin-right: 5rem !important;
+    h1 {
+      font-size: 3rem !important;
     }
-    .mob-vid{
-        height: 1rem !important;
-    }
-    .about-info{
-        display: none;
-        
-    }
-    .h-mob{
-        height: 20rem !important;
-        margin-right: 5rem !important;
-        h1{
-            font-size: 3rem !important;
-        }
-    }
+  }
 }
 .z-n1 {
   z-index: -1;
