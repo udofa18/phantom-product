@@ -17,12 +17,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills">
           <router-link to="/">
-            <li class="nav-item hvr-ripple-in">
+            <li class="nav-item hvr-bounce-in">
               <a class="nav-link">Home</a>
             </li>
           </router-link>
           <router-link to="/about">
-            <li class="nav-item">
+            <li class="nav-item hvr-bounce-in">
               <a class="nav-link">About</a>
             </li>
           </router-link>
@@ -212,34 +212,20 @@
   </div>
 </template>
 
-
-
-<style scoped lang="scss">
+<style lang="scss">
 @import url("~/node_modules/hover.css/css/hover-min.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins:wght@200&family=Qwitcher+Grypen:wght@700&display=swap");
 
 #app {
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Maven Pro" !important;
+}
+h1{
+  color:#CAA77F !important;
 }
 
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
 nav a.router-link-exact-active {
-  color: blue !important;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid rgb(255, 149, 0);
   padding: 1px;
 }
 </style>

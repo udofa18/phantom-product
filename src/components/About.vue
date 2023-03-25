@@ -36,7 +36,7 @@
       </div>
       <h1
         class="col text-center text-light my-5"
-        style="font-size: 100px"
+        style="font-size: 100px ;color: #CAA77F !important;"
         data-aos="slide-right"
         data-aos-duration="500"
       >
