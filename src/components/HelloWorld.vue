@@ -81,8 +81,6 @@
               </div>
             </div>
           </div>
-
-          <i class="bi bi-info-square-fill"></i>
         </div>
       </div>
     </div>

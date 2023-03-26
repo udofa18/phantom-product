@@ -15,7 +15,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills">
+        <ul
+          class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills"
+          style="margin-right: 11rem !important"
+        >
           <router-link to="/">
             <li class="nav-item hvr-bounce-in">
               <a class="nav-link">Home</a>
@@ -34,12 +37,24 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Dropdown link
+              Products
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <ul class="dropdown-menu p-2" style="width: 300px !important">
+              <li>
+                <a class="dropdown-item hvr-bubble-float-left my-2" href="#"
+                  >Product 1</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item hvr-bubble-float-left my-2" href="#"
+                  >product 2</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item hvr-bubble-float-left my-2" href="#"
+                  >product 3</a
+                >
+              </li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -53,10 +68,26 @@
             >
               Features
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <ul
+              class="dropdown-menu dropdown-menu p-2"
+              style="width: 300px !important"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item hvr-bubble-float-left my-2" href="#"
+                  >Asset Management
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item hvr-bubble-float-left my-2" href="#"
+                  >Data HUb</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item hvr-bubble-float-left my-2" href="#"
+                  >File Management</a
+                >
+              </li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -70,14 +101,35 @@
             >
               Partners
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <ul
+              class="dropdown-menu dropdown-menu p-2"
+              style="width: 300px !important"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item hvr-bubble-float-left my-2" href="#"
+                  >Binance</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item hvr-bubble-float-left my-2" href="#"
+                  >Apple</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item hvr-bubble-float-left my-2" href="#"
+                  >Amazon</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item hvr-bubble-float-left my-2" href="#"
+                  >Facebook</a
+                >
+              </li>
             </ul>
           </li>
         </ul>
-        <form class="d-flex">
+        <form class="d-flex m-1">
           <input
             class="form-control me-2"
             type="search"
@@ -86,12 +138,26 @@
           />
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
+        <br />
         <button
-          class="btn btn-outline hvr-sweep-to-right me-2 mx-5"
+          class="btn btn-outline hvr-sweep-to-right w-auto"
           type="button"
+          style="margin-left: 5rem"
         >
           Book Demo
         </button>
+        <div class="d-flex align-content-center" style="margin-left: 5rem">
+          <router-link to="/login"
+            ><button class="btn btn-outline-primary m-1" type="button">
+              Login
+            </button></router-link
+          >
+          <router-link to="/login"
+            ><button class="btn btn-outline-primary m-1" type="button">
+              Signup
+            </button></router-link
+          >
+        </div>
       </div>
     </div>
   </nav>
@@ -220,8 +286,8 @@
 #app {
   font-family: "Maven Pro" !important;
 }
-h1{
-  color:#CAA77F !important;
+h1 {
+  color: #caa77f !important;
 }
 
 nav a.router-link-exact-active {

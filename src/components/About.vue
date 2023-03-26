@@ -1,6 +1,5 @@
 <template>
   <div class="h-100 h-mob">
-    <h1>{{ msg }}</h1>
     <div
       class="m-0 w-100 z-n1 position-absolute z-n1 mob-vid"
       style="
@@ -36,7 +35,7 @@
       </div>
       <h1
         class="col text-center text-light my-5"
-        style="font-size: 100px ;color: #CAA77F !important;"
+        style="font-size: 100px; color: #caa77f !important"
         data-aos="slide-right"
         data-aos-duration="500"
       >
@@ -61,8 +60,10 @@
         />
         <div class="card-body">
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
+            temporibus id maxime? Labore, placeat temporibus veritatis vel earum
+            ad, tempore fugiat consectetur quam ratione repellendus, aliquam qui
+            odit impedit itaque?
           </p>
         </div>
       </div>
@@ -80,8 +81,10 @@
         />
         <div class="card-body">
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            eaque est quae! Corporis voluptatum non natus aperiam vitae placeat.
+            Ex, sunt. Rerum sint impedit dolorem, assumenda facilis quo
+            doloribus fugit?
           </p>
         </div>
       </div>
@@ -99,8 +102,7 @@
         />
         <div class="card-body">
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi iusto ipsam quam doloribus, dolore vel! Explicabo rem soluta voluptas, vero impedit exercitationem odio ducimus accusantium molestias, inventore perspiciatis alias error?
           </p>
         </div>
       </div>
@@ -118,8 +120,7 @@
         />
         <div class="card-body">
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, beatae laudantium quia iste sit eaque officia alias expedita, sequi nostrum eveniet est quo velit quisquam id nihil deleniti non unde.
           </p>
         </div>
       </div>
@@ -400,7 +401,13 @@ export default {
     margin: 0 !important;
   }
   .mob-vid {
-    height: 1rem !important;
+   background-image: linear-gradient(
+          83.2deg,
+          rgb(36, 7, 80) 10.8%,
+          rgb(6, 3, 42) 94.3%);
+    video{
+        display: none;
+    }
   }
   .about-info {
     display: none;
