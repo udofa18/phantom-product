@@ -257,20 +257,23 @@
           <li class="ms-3">
             <a class="link-dark" href="#"
               ><svg class="bi" width="24" height="24">
-                <use xlink:href="#twitter" /></svg
-            ></a>
+                <use xlink:href="#twitter" />
+              </svg>
+            </a>
           </li>
           <li class="ms-3">
             <a class="link-dark" href="#"
               ><svg class="bi" width="24" height="24">
-                <use xlink:href="#instagram" /></svg
-            ></a>
+                <use xlink:href="#instagram" />
+              </svg>
+            </a>
           </li>
           <li class="ms-3">
             <a class="link-dark" href="#"
               ><svg class="bi" width="24" height="24">
-                <use xlink:href="#facebook" /></svg
-            ></a>
+                <use xlink:href="#facebook" />
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
@@ -278,7 +281,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
 @import url("~/node_modules/hover.css/css/hover-min.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins:wght@200&family=Qwitcher+Grypen:wght@700&display=swap");
