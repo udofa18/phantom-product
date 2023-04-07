@@ -1,6 +1,6 @@
 <template>
   <!-- <HelloWorld/> -->
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand mb-0 h1" href="#">Phantom</a>
       <button
@@ -152,7 +152,7 @@
               Login
             </button></router-link
           >
-          <router-link to="/login"
+          <router-link to="/"
             ><button class="btn btn-outline-primary m-1" type="button">
               Signup
             </button></router-link
@@ -287,14 +287,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins:wght@200&family=Qwitcher+Grypen:wght@700&display=swap");
 
 #app {
-  font-family: "Maven Pro" !important;
+  font-family: "Poppins" !important;
 }
 h1 {
   color: #caa77f !important;
 }
-
+.bg-dark{
+  background-color: black !important;
+}
 nav a.router-link-exact-active {
   border-bottom: 2px solid rgb(255, 149, 0);
   padding: 1px;
+  color: white;
 }
 </style>
