@@ -2,7 +2,7 @@
   <!-- <HelloWorld/> -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand mb-0 h1" href="#">Phantom</a>
+      <a class="navbar-brand m-2 h1" href="#">Phantom</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -16,8 +16,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul
-          class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills"
-          style="margin-right: 11rem !important"
+          class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills mobile-li"
+          style="margin-left: 10rem; font-size: 0.9rem !important"
         >
           <router-link to="/">
             <li class="nav-item hvr-bounce-in">
@@ -29,7 +29,7 @@
               <a class="nav-link">About</a>
             </li>
           </router-link>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown hvr-bounce-in">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -57,7 +57,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown hvr-bounce-in">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -90,7 +90,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown hvr-bounce-in">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -129,20 +129,27 @@
             </ul>
           </li>
         </ul>
-        <form class="d-flex m-1">
+        <form class="d-flex m-0" style="margin-left: 9rem">
           <input
-            class="form-control me-2"
+            class="form-control me-1"
+            style="background-color: transparent !important; color: orange"
             type="search"
             placeholder="Search"
             aria-label="Search"
           />
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button
+            class="btn hvr-sweep-to-right"
+            style="color: white"
+            type="submit"
+          >
+            Search
+          </button>
         </form>
         <br />
         <button
-          class="btn btn-outline hvr-sweep-to-right w-auto"
+          class="btn btn-outline hvr-sweep-to-right w-auto text-light"
           type="button"
-          style="margin-left: 5rem"
+          style="margin-left: 7rem"
         >
           Book Demo
         </button>
@@ -163,8 +170,8 @@
   </nav>
 
   <router-view />
-  <div class="container">
-    <footer class="py-5">
+  <div class="navbar-expand-lg bg-dark">
+    <footer class="p-5">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
           <h5>Socials</h5>
@@ -285,19 +292,34 @@
 @import url("~/node_modules/hover.css/css/hover-min.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins:wght@200&family=Qwitcher+Grypen:wght@700&display=swap");
-
 #app {
-  font-family: "Poppins" !important;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Qwitcher Grypen", cursive;
 }
+
 h1 {
   color: #caa77f !important;
 }
-.bg-dark{
+
+.bg-dark {
   background-color: black !important;
 }
+
 nav a.router-link-exact-active {
   border-bottom: 2px solid rgb(255, 149, 0);
   padding: 1px;
   color: white;
+}
+
+.dropdown-item:hover {
+  background-color: black !important;
+  color: orange;
+}
+@media (min-width: 350px) and (max-width: 950px) {
+  .mobile-li {
+    text-align: center;
+    margin-left: 0 !important;
+  }
 }
 </style>

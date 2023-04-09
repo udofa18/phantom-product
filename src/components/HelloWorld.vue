@@ -5,7 +5,11 @@
         <h3 class="mt-4" data-aos="slide-left" data-aos-duration="4000">
           {{ msg }}
         </h3>
-        <h1 class="mt-4 padding-bottom" data-aos="slide-up" data-aos-duration="4000">
+        <h1
+          class="mt-4 padding-bottom"
+          data-aos="slide-up"
+          data-aos-duration="4000"
+        >
           Organize and share photos, video, data, logos, etc.
         </h1>
         <p
@@ -39,10 +43,23 @@
           class="js-hero-video"
         ></video>
       </div>
-      <div class="card my-5">
+      <!-- position: relative;
+}
+ .background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  filter: blur(5px);
+  z-index: -1;
+} -->
+      <div class="card my-5 blur">
         <div class="card-body text-center">
-          <h4 class="my-3">Tested and trusted by all</h4>
           <div class="container">
+            <h4 class="my-3">Tested and trusted by all</h4>
             <div class="row">
               <div class="col">
                 <img
@@ -62,7 +79,7 @@
                 <img
                   src="https://www.svgrepo.com/show/303540/amazon-com-logo.svg"
                   alt="Bootstrap"
-                  width="80px"
+                  width="100px"
                 />
               </div>
               <div class="col">
@@ -229,7 +246,7 @@
           ></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active " data-bs-interval="2000">
+          <div class="carousel-item active" data-bs-interval="2000">
             <img
               src="https://img.freepik.com/free-photo/close-up-young-business-team-working_23-2149153870.jpg?w=996&t=st=1679576258~exp=1679576858~hmac=6fe6bee422249a71e959d52440423517a7aa343202fb37f2dea0e12fc33eb87a"
               class="d-block w-100"
@@ -270,7 +287,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="col-md-5 me-0 mobile-text " data-aos="slide-left">
+      <div class="col-md-5 me-0 mobile-text" data-aos="slide-down">
         <h1 class="mt-4">
           Organize and share photos, video, data, logos, etc.
         </h1>
@@ -308,24 +325,46 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
 }
+
 a {
   color: #42b983;
 }
+
+.blur {
+  position: relative !important;
+  background-color: transparent;
+  border: none;
+}
+
+.blur::before {
+  width: 100% !important;
+  height: 100% !important;
+  content: "" !important;
+  position: absolute !important;
+  filter: blur(5px) !important;
+  z-index: -1 !important;
+  background-color: rgba(221, 221, 221, 0.7) !important;
+}
+
 @media (min-width: 350px) and (max-width: 950px) {
   .mobile-text {
     text-align: center;
   }
-  .padding-bottom{
-    padding-bottom:20%;
+
+  .padding-bottom {
+    padding-bottom: 20%;
   }
+
   .mobile-video {
     position: absolute;
     padding-top: 30%;
@@ -337,25 +376,31 @@ a {
       width: 100%;
     }
   }
+
   .x-overflow {
     overflow-x: hidden;
   }
+
   .mobile-po {
     padding-top: 60%;
   }
+
   .youtube-m {
     width: 100%;
     height: 300px !important;
     margin: 0 !important;
   }
+
   .you-con {
     padding: 1rem !important;
   }
-  .w-50{
-    width:100% !important;
+
+  .w-50 {
+    width: 100% !important;
   }
-  .col img{
-    width:30px;
+
+  .col img {
+    width: 30px;
   }
 }
 </style>
